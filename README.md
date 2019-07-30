@@ -48,3 +48,24 @@ $> python mostpopular.py --from-dtm 2019020100 --to-dtm 2019030100 recommend ./r
 - 19.02.01 부터 19.03.01 일까지 가장 인기가 좋았던 글 100개로 추천 결과를 생성합니다.
 
 recommend.txt 파일과 소스코드를 각각 zip으로 압축한 뒤에 홈페이지로 제출하시면 점수를 확인하실 수 있습니다. 
+
+
+
+# [ Jupyter Notebook Code ]
+1. mydevelop_gensim.ipynb
+
+gensim 라이브러리를 활용 ( 대회에 부적합 )
+```bash
+$> tree -d
+.
+├── res
+│   ├── contents
+│   ├── predict
+│   └── read
+└── tmp
+    └── gensim
+```
+
+2. mydevelop_tensorflow
+
+미완성
